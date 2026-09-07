@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HashHomeLayout</string>
+    <string name="app_title">Hash App</string>
+    <string name="welcome_user">Welcome!</string>
+    <string name="home_description">Welcome to Hash App! Sign in below to explore your personalized user features, update your profile, and navigate through the portal.</string>
+    <string name="click_here">Sign In</string>
+    <string name="options_title">Options:</string>
+    <string name="btn_profile">Profile</string>
+    <string name="btn_settings">Settings</string>
+</resources>
