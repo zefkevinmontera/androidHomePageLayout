@@ -83,8 +83,8 @@
             android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="bold"
-            tools:targetApi="o"
-            tools:ignore="UnusedAttribute" />
+            tools:ignore="UnusedAttribute"
+            tools:targetApi="o" />
 
         <Button
             android:id="@+id/superButton"
