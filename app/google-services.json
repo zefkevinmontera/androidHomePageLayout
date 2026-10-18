@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "701804387004",
+    "project_id": "hashhomelayout",
+    "storage_bucket": "hashhomelayout.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701804387004:android:924fc6e10666af2ec5ceb9",
+        "android_client_info": {
+          "package_name": "com.example.hashhomelayout"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5RGg4ttHegw-le4HVmF3ScfDmU28_VOo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

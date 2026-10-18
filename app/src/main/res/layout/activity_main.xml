@@ -1,140 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="20dp"
-    android:background="@color/hash_dark_blue"
-    tools:ignore="Accessibility">
-
-    <!-- Zef Kevin A. Montera -->
-    <!-- My First Homepage project in Android Studio -->
-
-    <!-- Header Section -->
-
-    <!-- Divider -->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="16dp"
-        android:background="@color/hash_purple"
-        android:gravity="center_vertical"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:id="@+id/imgLogo"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:contentDescription="@string/app_title"
-            android:src="@drawable/ic_hash_logo"
-            tools:ignore="ImageContrastCheck" />
-
-        <TextView
-            android:id="@+id/txtAppTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="12dp"
-            android:text="@string/app_title"
-            android:textColor="@color/white"
-            android:textSize="22sp"
-            android:textStyle="bold" />
-    </LinearLayout>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginBottom="20dp"
-        android:background="@color/hash_medium_blue" />
-
-    <!-- Main Hero Banner -->
-
-    <!-- Quick Menu Section Header -->
-
-    <LinearLayout
-        android:layout_width="371dp"
-        android:layout_height="416dp"
-        android:layout_marginBottom="24dp"
-        android:background="@color/hash_purple"
-        android:orientation="vertical"
-        android:padding="20dp">
-
-        <TextView
-            android:id="@+id/txtWelcome"
-            android:layout_width="wrap_content"
-            android:layout_height="73dp"
-            android:layout_gravity="center_horizontal"
-            android:text="@string/welcome_user"
-            android:textColor="@color/white"
-            android:textSize="60sp"
-            android:textStyle="bold"
-            tools:ignore="Accessibility,TextContrastCheck" />
-
-        <TextView
-            android:id="@+id/txtDescription"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="50dp"
-            android:justificationMode="inter_word"
-            android:lineSpacingExtra="3dp"
-            android:text="@string/home_description"
-            android:textColor="@color/white"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            tools:ignore="UnusedAttribute"
-            tools:targetApi="o" />
-
-        <Button
-            android:id="@+id/superButton"
-            android:layout_width="260dp"
-            android:layout_height="52dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="50dp"
-            android:backgroundTint="@color/hash_medium_blue"
-            android:text="@string/click_here"
-            android:textColor="@color/white"
-            android:textStyle="bold" />
-    </LinearLayout>
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/hash_dark_blue">
 
     <TextView
-        android:id="@+id/txtMenuHeader"
+        android:id="@+id/tvWelcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/options_title"
-        android:textSize="18sp"
+        android:text="Welcome Home!"
+        android:textSize="24sp"
         android:textStyle="bold"
-        android:textColor="@color/white"
-        android:layout_marginBottom="12dp" />
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/white"/>
 
-    <!-- Two Secondary Action Buttons -->
-    <LinearLayout
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/tvUserEmail"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:text="User Email"
+        android:textSize="16sp"
+        android:layout_marginBottom="32dp"
+        android:textColor="@color/white"/>
 
-        <Button
-            android:id="@+id/btnOption1"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            android:text="@string/btn_profile"
-            android:backgroundTint="@color/hash_purple"
-            android:textColor="@color/white"
-            android:layout_marginEnd="6dp"
-            tools:ignore="ButtonStyle,VisualLintButtonSize" />
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Log Out"
+        android:backgroundTint="@color/hash_purple"
+        android:textColor="@color/white"/>
 
-        <Button
-            android:id="@+id/btnOption2"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            android:text="@string/btn_settings"
-            android:backgroundTint="@color/hash_medium_blue"
-            android:textColor="@color/white"
-            android:layout_marginStart="6dp"
-            tools:ignore="ButtonStyle,TextContrastCheck,VisualLintButtonSize" />
-    </LinearLayout>
-
-</LinearLayout>
+</LinearLayout
